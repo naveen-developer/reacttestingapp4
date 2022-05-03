@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto:wght@100;300;400&display=swap");
+* {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app__headerImage,
+.app__header_mobileview {
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-around;
+}
+
+.app__headerInput {
+  width: 15rem;
+  width: 15rem;
+  display: flex;
+  align-items: end;
+  /* border: 1px solid lightblue; */
+  background: #f3f0f0;
+  padding-left: 11px;
+  border-radius: 5px;
+}
+
+.app__searchinput {
+  padding: 10px;
+  border: none;
+  background: inherit;
+  outline: none;
+}
+
+.app__headerLinks {
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.app__headerLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.app__posts {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app__posts_right__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.app__footer_mobileview,
+.app__header_mobileview {
+  display: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 580px) {
+  .app__headerImage,
+  .app__headerLinks,
+  .app__headerInput,
+  .app__posts_right {
+    display: none;
+  }
+
+  .app__posts {
+    padding: unset;
+  }
+
+  .app__header_mobileview,
+  .app__footer_mobileview {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .app__footer_mobileview {
+    position: fixed;
+    bottom: 0%;
+    width: 95%;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .app__footer_mobileview .post__avatar {
+    width: 27px;
+    height: 27px;
+  }
+}
