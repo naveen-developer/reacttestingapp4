@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reacttestingapp4/static/css/main.b10c6aa9.chunk.css",
+    "main.js": "/reacttestingapp4/static/js/main.679a2fcc.chunk.js",
+    "main.js.map": "/reacttestingapp4/static/js/main.679a2fcc.chunk.js.map",
+    "runtime-main.js": "/reacttestingapp4/static/js/runtime-main.2a04c653.js",
+    "runtime-main.js.map": "/reacttestingapp4/static/js/runtime-main.2a04c653.js.map",
+    "static/js/2.9172fe31.chunk.js": "/reacttestingapp4/static/js/2.9172fe31.chunk.js",
+    "static/js/2.9172fe31.chunk.js.map": "/reacttestingapp4/static/js/2.9172fe31.chunk.js.map",
+    "index.html": "/reacttestingapp4/index.html",
+    "static/css/main.b10c6aa9.chunk.css.map": "/reacttestingapp4/static/css/main.b10c6aa9.chunk.css.map",
+    "static/js/2.9172fe31.chunk.js.LICENSE.txt": "/reacttestingapp4/static/js/2.9172fe31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a04c653.js",
+    "static/js/2.9172fe31.chunk.js",
+    "static/css/main.b10c6aa9.chunk.css",
+    "static/js/main.679a2fcc.chunk.js"
+  ]
+}
